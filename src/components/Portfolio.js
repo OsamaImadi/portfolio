@@ -10,11 +10,13 @@ export default class Porfolio extends Component {
           <div id="portfolio-wrapper" className="bgrid-quarters s-bgrid-thirds cf">
           {
             resumeData.portfolio && resumeData.portfolio.map((item)=>{
+              // console.log("Item in portfolio=>", item)
               return(
-                <div className="columns portfolio-item">
+                // <div className="columns portfolio-item" onClick={()=>window.location = item.link}>
+                <div className="columns portfolio-item" onClick={()=>window.open(`${item.link}`, "_blank")}>
                   <div className="item-wrap">
-                    <a href="#modal-01">
-                      <img src={`${item.imgurl}`} className="item-img"/>
+                    <a href={item.link}>
+                      <img src={`${item.imgurl}`} alt="project-img" className="item-img"/>
                       <div className="overlay">
                         <div className="portfolio-item-meta">
                           <h5>{item.name}</h5>

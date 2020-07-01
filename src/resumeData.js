@@ -1,60 +1,53 @@
 let resumeData = {
     "imagebaseurl":"https://rbhatia46.github.io/",
-    "name": "Rahul Bhatia",
-    "role": "Frontend Developer and Data Scientist",
-    "linkedinId":"Your LinkedIn Id",
+    "name": "Muhammad Osama Imadi",
+    "role": "Full-stack Developer with experience in MERN-stack",
+    "linkedinId":"https://www.linkedin.com/in/osama-imadi-283830154/",
     "skypeid": "Your skypeid",
-    "roleDescription": "I like dabbling in various parts of frontend development and like to learn about new technologies, write technical articles or simply play games in my free time.",
+    "roleDescription": "",
     "socialLinks":[
         {
           "name":"linkedin",
-          "url":"https://www.linkedin.com/in/rahul-bhatia-67ba08121/",
+          "url":"https://www.linkedin.com/in/osama-imadi-283830154/",
           "className":"fa fa-linkedin"
         },
         {
           "name":"github",
-          "url":"http://github.com/rbhatia46",
+          "url":"https://github.com/OsamaImadi",
           "className":"fa fa-github"
         },
         {
-          "name":"skype",
-          "url":"http://twitter.com/rbhatia46",
-          "className":"fa fa-twitter"
+          "name":"stackoverflow",
+          "url":"https://stackoverflow.com/users/11899841/osama",
+          "className":"fa fa-stack-overflow"
         }
       ],
-    "aboutme":"I am currently a pre-final year student at The LNM Institute of Information Technology and pursuing my B.Tech from here. I am a self taught Full Stack Web Developer, currently diving deeper into Machine Learning. I believe that to be successful in life, one needs to be obsessive with their dreams and keep working towards them.",
-    "address":"India",
+    "aboutme":"Full-stack Web developer with professional experience in MERN stack. Supportive and enthusiastic team player dedicated to streamlining processes and efficiently resolving project issues.",
+    "address":"Islamabad, Pakistan",
     "website":"https://rbhatia46.github.io",
     "education":[
       {
-        "UniversityName":"The LNM Insitute of Information Technology",
-        "specialization":"Some specialization",
-        "MonthOfPassing":"Aug",
-        "YearOfPassing":"2020",
-        "Achievements":"Some Achievements"
-      },
-      {
-        "UniversityName":"Some University",
-        "specialization":"Some specialization",
+        "UniversityName":"NUCES, FAST Islamabad",
+        "specialization":"Bachelors in Computer Science",
         "MonthOfPassing":"Jan",
         "YearOfPassing":"2018",
-        "Achievements":"Some Achievements"
+        "Achievements":""
       }
     ],
     "work":[
       {
-        "CompanyName":"Some Company",
-        "specialization":"Some specialization",
-        "MonthOfLeaving":"Jan",
-        "YearOfLeaving":"2018",
-        "Achievements":"Some Achievements"
+        "CompanyName":"Morosoft",
+        "specialization":"Full-stack Developer",
+        "MonthOfLeaving":"July",
+        "YearOfLeaving":"2019 - Present",
+        "Achievements":""
       },
       {
-        "CompanyName":"Some Company",
-        "specialization":"Some specialization",
-        "MonthOfLeaving":"Jan",
-        "YearOfLeaving":"2018",
-        "Achievements":"Some Achievements"
+        "CompanyName":"MyGadgets.pk",
+        "specialization":"Web Master",
+        "MonthOfLeaving":"March",
+        "YearOfLeaving":"2018 - June-2019",
+        "Achievements":""
       }
     ],
     "skillsDescription":"Your skills here",
@@ -71,25 +64,29 @@ let resumeData = {
     ],
     "portfolio":[
       {
-        "name":"project1",
-        "description":"mobileapp",
-        "imgurl":"images/portfolio/phone.jpg"
+        "name":"Taxionspot",
+        "description":"Taxi ordering services currently operating in Netherland [NestJs, MongoDB, GraphQL]",
+        "imgurl":"images/portfolio/taxi.png",
+        "link":"https://www.taxionspot.nl/"
       },
       {
-        "name":"project2",
-        "description":"mobileapp",
-        "imgurl":"images/portfolio/project.jpg"
+        "name":"Homi",
+        "description":"Food ordering app [NestJs, PostgreSQL, RESTful]",
+        "imgurl":"images/portfolio/food.png",
+        "link":"https://homi-frontend-staging.herokuapp.com/"
       },
       {
-        "name":"project3",
-        "description":"mobileapp",  
-        "imgurl":"images/portfolio/project2.png"
+        "name":"Crown Clothing",
+        "description":"Production ready e-commerce store [ReactJs, React-Hooks, Firebase]",
+        "imgurl":"images/portfolio/crwn.png",
+        "link":"https://ms-crwn-clothing.herokuapp.com/"
       },
       {
-        "name":"project4",
-        "description":"mobileapp",
-        "imgurl":"images/portfolio/phone.jpg"
-      }
+        "name":"MyGadgets",
+        "description":"E-commerce store currently operating in Pakistan [Wordpress, Woocommerce]",  
+        "imgurl":"images/portfolio/mygadgets.png",
+        "link":"https://mygadgets.pk/"
+      },
     ],
     "testimonials":[
       {
