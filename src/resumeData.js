@@ -36,10 +36,17 @@ let resumeData = {
     ],
     "work":[
       {
+        "CompanyName":"Antillia LLC",
+        "specialization":"Backend Developer",
+        "MonthOfLeaving":"August",
+        "YearOfLeaving":"2020 - Present",
+        "Achievements":""
+      },
+      {
         "CompanyName":"Morosoft",
         "specialization":"Full-stack Developer",
         "MonthOfLeaving":"July",
-        "YearOfLeaving":"2019 - Present",
+        "YearOfLeaving":"2019 - 2020",
         "Achievements":""
       },
       {
